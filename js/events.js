@@ -11,7 +11,7 @@ function frameIt(){
 function pressIt(){
   $('input').keydown(function(event){
     if(event.which == 71){
-      alert("You have pressed the letter G.");
+      $('#submit').alert("You have pressed the letter G.");
     }
   })
 }
